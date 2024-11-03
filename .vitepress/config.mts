@@ -6,7 +6,9 @@ export default defineConfig({
   description: "UpLauncher の製品のドキュメンテーション",
   lang: "ja",
   lastUpdated: true,
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
+    logo: "/favicon.ico",
     outline: { label: "このページの中", level: "deep" },
 
     search: {
@@ -51,8 +53,14 @@ export default defineConfig({
       },
       {
         text: "Discord.jsk",
+        items: [{ text: "クイック スタート", link: "/jsk" }],
+      },
+      {
+        text: "AblityDyno",
         items: [
-          { text: "クイック スタート", link: "/jsk" }
+          { text: "AblityDyno とは", link: "/ablitydyno" },
+          { text: "クイック スタート", link: "/ablitydyno/getting-started" },
+          { text: "コマンドリスト", link: "/ablitydyno/command-list" },
         ],
       },
     ],

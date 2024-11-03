@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: Discord.jsk
       link: /jsk/
+    - theme: alt
+      text: AblityDyno
+      link: /ablitydyno/
 
 features:
   - title: すぐに利用できる
