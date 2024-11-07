@@ -22,6 +22,10 @@ Rai Chat で使用される型
 
 ベースの型は string (数字)で、返信先のメッセージの ID を指定します。
 
+### UserId
+
+ベースの型は string で、ユーザーの ID を指定します。
+
 ## Stripe
 
 Stripe で使用される型
