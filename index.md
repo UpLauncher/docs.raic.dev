@@ -8,8 +8,8 @@ hero:
   tagline: 今すぐ製品の使用を始めよう
   actions:
     - theme: brand
-      text: API
-      link: /api/
+      text: Rai Chat
+      link: /chat/
     - theme: alt
       text: Discord.jsk
       link: /jsk/
@@ -21,10 +21,10 @@ features:
   - title: すぐに利用できる
     details: UpLauncher Docs は完全無料で、すぐに製品を利用できます 
     icon: 🏃‍♂️‍➡️
-  - title: 様々な製品があります
+  - title: 様々な製品、様々な解説
     details: このドキュメンテーションには、ほぼすべての製品のドキュメントがあります
     icon: 📝
-  - title: 検索ができます
+  - title: たくさんの記事、最速のUX
     details: すぐに膨大な量があるドキュメントを検索できます。
     icon: 🔎
 ---

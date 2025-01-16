@@ -51,7 +51,7 @@ const client = new djskClient(
   {
     intents: [
       GatewayIntentBits.MessageContent,
-      /* サーバーでの必要に必須 */
+      /* サーバーでの利用に必須 */
       GatewayIntentBits.Guilds,
       GatewayIntentBits.GuildMessages,
       GatewayIntentBits.GuildMessageReactions,

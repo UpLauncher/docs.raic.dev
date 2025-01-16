@@ -32,22 +32,41 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "ホーム", link: "/" },
-      { text: "API", link: "/api/" },
+      {
+        text: "Rai Chat",
+        items: [
+          { text: "Rai Chat", link: "/chat/" },
+          { text: "Rai Chat API", link: "/chat/api/" },
+        ],
+      },
+      { text: "Discord.jsk", link: "/jsk/" },
+      { text: "AblityDyno", link: "/ablitydyno/" },
     ],
 
     sidebar: [
       {
-        text: "API",
+        text: "Rai Chat",
         items: [
-          { text: "API について", link: "/api/" },
-          { text: "認証", link: "/api/authorization" },
-          { text: "型 (Type)", link: "/api/type" },
+          { text: "Rai Chat とは", link: "/chat/" },
+          { text: "クイック スタート", link: "/chat/quickstart" },
+          { text: "利用規約", link: "/chat/tos" },
           {
-            text: "エンドポイント",
+            text: "アカウントに関するガイド",
+            collapsed: false,
             items: [
-              { text: "チャット", link: "/api/chat" },
-              { text: "Stripe", link: "/api/stripe" },
-            ],
+              { text: "プロフィールのセットアップ", link: "/chat/guide/profile" },
+              { text: "アカウントの保護", link: "/chat/guide/account-security" }
+            ]
+          },
+          {
+            text: "API",
+            collapsed: true,
+            items: [
+              { text: "API について", link: "/chat/api/" },
+              { text: "認証", link: "/chat/api/authorization" },
+              { text: "型 (Type)", link: "/chat/api/type" },
+              { text: "エンドポイント", link: "/chat/api/" }
+            ]
           },
         ],
       },
